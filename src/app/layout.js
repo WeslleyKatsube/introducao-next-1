@@ -1,10 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Cabecalho from "@/componentes/cabecalho";
+import Rodape from "@/componentes/rodape";
 
 
 const inter = Inter({ subsets: ["latin"] });
 
-import Rodape from "@componentes/rodape";
+
 
 export const metadata = {
   title: "Create Next App",
@@ -15,6 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en-us">
       <body /*className={inter.className}*/>
+      <Cabecalho />
       {children}
       <Rodape />
       </body>

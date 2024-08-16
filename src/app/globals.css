@@ -147,7 +147,8 @@ body {
 	font-size: 1.6rem;
 	/* border: 0.3rem solid #f00; */
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .containerGlobal {

@@ -7,7 +7,7 @@ import { MdFastfood, MdMenu } from 'react-icons/md';
 
 import styles from './index.module.css';
 
-function Header() {
+function Cabecalho() {
 
   const [mobile, setMobile] = useState(false);
 
@@ -90,4 +90,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Cabecalho;
